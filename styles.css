@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: Inter;
+}
+
+/* NAV */
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100vw;
+}
+
+nav .menu-btn {
+  position: absolute;
+  right: 2.5rem;
+  top: 2.5rem;
+  z-index: 10;
+}
+
+nav .nav-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  height: 100vh;
+  width: 70vw;
+  padding: 14.4rem 2.6rem;
+  list-style: none;
+}
+
+nav .nav-list li {
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  color: #00001a;
+  margin-bottom: 2.4rem;
+}
