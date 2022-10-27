@@ -97,3 +97,38 @@ nav .nav-list li a {
   text-decoration: none;
   color: #00001a;
 }
+
+/* HERO */
+
+.hero {
+  width: 100%;
+  padding: 0 1.6rem;
+}
+
+.hero h1 {
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4rem;
+  color: #00001a;
+  margin-top: 2.4rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #5e607a;
+  margin-top: 1.6rem;
+}
+
+.hero .btn {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  letter-spacing: 4.375px;
+  text-transform: uppercase;
+  color: #fffdfa;
+  background-color: #f15d51;
+  border: none;
+  padding: 1.2rem 3.3rem;
+  margin-top: 2.4rem;
+}
