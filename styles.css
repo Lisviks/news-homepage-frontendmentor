@@ -53,17 +53,15 @@ header .menu-btn {
 /* NAV */
 
 nav {
-  display: none;
   position: fixed;
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
   height: 100vh;
   width: 100vw;
 }
 
 nav.open {
-  display: block;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 nav .nav-list {
@@ -75,6 +73,12 @@ nav .nav-list {
   width: 70vw;
   padding: 14.4rem 2.6rem;
   list-style: none;
+  transform: translateX(100%);
+  transition: all 0.3s ease;
+}
+
+nav.open .nav-list {
+  transform: translateX(0);
 }
 
 nav .nav-list li {
