@@ -132,3 +132,46 @@ nav .nav-list li a {
   padding: 1.2rem 3.3rem;
   margin-top: 2.4rem;
 }
+
+.new {
+  padding: 2.4rem 2rem;
+  margin: 6.4rem 1.6rem;
+  background-color: #00001a;
+}
+
+.new h2 {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  color: #e9aa52;
+}
+
+.new div {
+  margin: 3.5rem 0 3.1rem;
+  padding-bottom: 2.9rem;
+  border-bottom: 1px solid #5e607a;
+}
+
+.new div:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border: none;
+}
+
+.new h3 {
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 2.4rem;
+}
+
+.new h3 a {
+  text-decoration: none;
+  color: #fffdfa;
+}
+
+.new p {
+  font-size: 1.5rem;
+  line-height: 2.6rem;
+  color: #c5c6ce;
+  margin-top: 0.8rem;
+}
