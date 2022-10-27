@@ -29,9 +29,30 @@ body {
   font-family: Inter;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.8rem 1.6rem 0;
+  margin-bottom: 3.2rem;
+}
+
+header .logo {
+  height: 2.8rem;
+}
+
+header .logo img {
+  height: 100%;
+}
+
+header .menu-btn {
+  z-index: 10;
+}
+
 /* NAV */
 
 nav {
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -40,11 +61,8 @@ nav {
   width: 100vw;
 }
 
-nav .menu-btn {
-  position: absolute;
-  right: 2.5rem;
-  top: 2.5rem;
-  z-index: 10;
+nav.open {
+  display: block;
 }
 
 nav .nav-list {
