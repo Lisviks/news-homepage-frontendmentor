@@ -29,6 +29,11 @@ body {
   font-family: Inter;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 img {
   width: 100%;
 }
@@ -219,6 +224,25 @@ nav .nav-list li a {
   line-height: 2.6rem;
   color: #5e607a;
   width: 21.9rem;
+}
+
+/* HOVER */
+
+.nav li:hover a{
+  color: #f15d51;
+}
+
+.new h3:hover a {
+  color: #e9aa52;
+}
+
+.top h3:hover a {
+  color: #f15d51;
+}
+
+.hero .btn:hover {
+  cursor: pointer;
+  background-color: #00001a;
 }
 
 /* DESKTOP */
